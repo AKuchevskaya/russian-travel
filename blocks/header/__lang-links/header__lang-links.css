@@ -1,6 +1,7 @@
 .header__lang-links {
-    height: 28px;
-    top: 46px;
-    color: #FFFFFF;
-    list-style: none;
+display: flex;
+justify-content: flex-end;
+padding: 0;
+margin: 18px 0 0;
+list-style: none;   
 }

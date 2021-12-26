@@ -1,0 +1,10 @@
+.page__container {
+    max-width: 1184px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
