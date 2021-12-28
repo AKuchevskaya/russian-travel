@@ -1,0 +1,9 @@
+.photo-grid__container {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(284px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
+    gap: 16px;
+    align-content: center;
+    justify-content: center;
+}

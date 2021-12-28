@@ -1,0 +1,10 @@
+.footer__container {
+    list-style: none;
+    display: flex;
+    background-color: yellow;
+    padding: 0;
+}
+
+.footer__container:last-of-type {
+    margin: 0;
+}

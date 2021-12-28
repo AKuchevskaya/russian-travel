@@ -1,0 +1,8 @@
+.places__text {
+    grid-area: text;
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 29px;
+}

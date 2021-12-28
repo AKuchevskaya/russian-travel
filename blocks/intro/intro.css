@@ -1,5 +1,4 @@
 .intro {
-    width: 690px;
-    align-self: flex-start;
+    max-width: 690px;
     margin-left: 100px;
 }
