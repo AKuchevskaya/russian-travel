@@ -1,10 +1,7 @@
 .lead {
-    width: 984px;
+    max-width: 984px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    color: #FFFFFF;
-    font-style: normal;
-    margin: 0 auto;
 }

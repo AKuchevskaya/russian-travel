@@ -1,5 +1,5 @@
 .cover__link {
-    max-width: 1184px;
+    width: 1184px;
     min-height: 740px;
     display: flex;
     justify-content: center;
@@ -9,6 +9,10 @@
     flex-direction: column;
     position: relative;
     background-image: url(../../../images/cover-trains.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
 }
 
 .cover__link::after {
@@ -20,7 +24,7 @@
     opacity: 0.3;
     transition: .4s;
 }
-.cover__link:hover:after {
+.cover__link:hover::after {
     opacity: 0.8;
 }
 

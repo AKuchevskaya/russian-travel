@@ -1,10 +1,14 @@
 .page__container {
-    max-width: 1184px;
-    margin: 0 auto;
+    font-family: 'Inter';
+    color: #ffffff;
+    font-style: normal;
+    max-width: 100%;
+    margin: 0 48px;
     padding: 0;
     background-color: aqua;
-    display: flex;
+    /*display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-content: center;
+    align-items: center;*/
 }

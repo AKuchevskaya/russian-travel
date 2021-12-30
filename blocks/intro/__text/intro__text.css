@@ -1,5 +1,5 @@
 .intro__text {
-    width: 690px;
+    max-width: 690px;
     font-weight: normal;
     font-size: 16px;
     line-height: 26px;

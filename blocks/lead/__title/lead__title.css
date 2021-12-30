@@ -3,7 +3,8 @@
     font-size: 96px;
     line-height: 100px;
     text-align: center;
-    width: 720px;
+    max-width: 720px;
     margin: 0;
+    padding: 0;
     background-color: brown;
 }

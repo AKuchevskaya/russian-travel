@@ -1,9 +1,9 @@
 .header {
     background-color: crimson;
     width: 100%;
-    min-height: 52px;
-    margin: 28px 0 56px;
-    position: relative;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    margin: 28px 0 56px;
+    
+
 }

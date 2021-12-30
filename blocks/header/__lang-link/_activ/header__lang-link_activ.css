@@ -1,5 +1,5 @@
 .header__lang-link_activ {
-    width: 30px;
+    max-width: 30px;
     text-decoration-line: underline;
     padding-right: 18px;
 }

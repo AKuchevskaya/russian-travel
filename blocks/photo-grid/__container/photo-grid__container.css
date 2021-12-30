@@ -2,8 +2,8 @@
     list-style: none;
     display: grid;
     grid-template-columns: repeat(4, minmax(284px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
+    grid-template-rows: repeat(3, minmax(213px, 1fr));
     gap: 16px;
-    align-content: center;
-    justify-content: center;
+    margin: 0;
+    padding: 0;
 }
