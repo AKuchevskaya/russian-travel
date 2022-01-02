@@ -19,11 +19,11 @@
     height: 100%;
     background-color: black;
     position: absolute;
-    opacity: 0.3;
+    opacity: .3;
     transition: .4s;
 }
 .cover__link:hover::after {
-    opacity: 0.8;
+    opacity: .8;
 }
 
 @media screen and (max-width: 1184px) {
