@@ -3,3 +3,10 @@
     text-decoration-line: underline;
     padding-right: 18px;
 }
+
+@media screen and (max-width: 540px) {
+    .header__lang-link_activ {
+        max-width: 22px;
+        padding-right: 19px;
+    }
+}

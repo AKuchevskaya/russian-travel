@@ -6,3 +6,11 @@
     line-height: 28px;
     max-width: 29px;
 }
+
+@media screen and (max-width: 540px) {
+    .header__lang-link {
+        font-size: 18px;
+        line-height: 20px;
+        max-width: 22px;
+    }
+}

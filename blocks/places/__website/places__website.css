@@ -1,7 +1,0 @@
-.places__website {
-    grid-area: website;
-    max-width: 456px;
-    font-weight: normal;
-    margin: 0;
-    align-self: flex-end;
-}

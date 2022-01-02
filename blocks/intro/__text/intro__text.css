@@ -3,6 +3,17 @@
     font-weight: normal;
     font-size: 16px;
     line-height: 26px;
-    background-color: burlywood;
     margin: 0 0 33px;
+}
+
+@media screen and (max-width: 960px) {
+    .intro__text {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .intro__text {
+        max-width: 288px;
+    }
 }

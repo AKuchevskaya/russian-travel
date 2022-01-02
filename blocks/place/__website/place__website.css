@@ -1,0 +1,12 @@
+.place__website {
+    grid-area: website;
+    font-weight: normal;
+    margin: 0;
+    align-self: flex-end;
+}
+
+@media screen and (max-width: 540px) {
+    .place__website {
+        padding: 0 16px;
+    }
+}

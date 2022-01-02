@@ -1,8 +1,31 @@
 .content {
-    max-width: 1184px;
+    /*max-width: 1184px;*/
     display: grid;
-    grid-gap: 92px;
-    margin: 0 auto;
+    gap: 92px;
+   /*grid-template-rows: repeat(5, minmax(min-content, max-content));*/
+    padding: 0 48px;
     justify-content: center;
     justify-items: center;
+}
+
+@media screen and (max-width: 1184px) {
+    .content {
+        padding: 0;
+    }
+    
+}
+
+@media screen and (max-width: 960px) {
+    .content {
+        gap: 88px;
+        padding: 0;
+        margin: 0;
+    }
+    
+}
+
+@media screen and (max-width: 540px) {
+    .content {
+        gap: 64px;
+    }
 }

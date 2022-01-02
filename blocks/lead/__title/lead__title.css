@@ -6,5 +6,13 @@
     max-width: 720px;
     margin: 0;
     padding: 0;
-    background-color: brown;
+}
+
+@media screen and (max-width: 540px) {
+    .lead__title {
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 44px;
+        max-width: 288px;
+    }
 }
