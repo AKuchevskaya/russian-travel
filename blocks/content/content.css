@@ -1,11 +1,10 @@
 .content {
-    /*max-width: 1184px;*/
     display: grid;
     gap: 92px;
-   /*grid-template-rows: repeat(5, minmax(min-content, max-content));*/
     padding: 0 48px;
     justify-content: center;
     justify-items: center;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 1184px) {

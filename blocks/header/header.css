@@ -4,6 +4,7 @@
     justify-content: space-between;
     margin: 28px 48px 0;
     padding-bottom: 56px;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 1120px) {
