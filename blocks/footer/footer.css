@@ -1,20 +1,18 @@
 .footer {
-    max-width: 100%;
-    padding: 92px 48px 24px;
+    margin: 92px 48px 24px;
     display: flex;
     justify-content: space-between;
-    overflow: hidden;
 }
 
 @media screen and (max-width: 960px) {
     .footer {
-        padding: 89px 24px 24px;
+        margin: 89px 24px 24px;
     }
 }
 
 @media screen and (max-width: 540px) {
     .footer {
-        padding: 64px 16px 24px;
+        margin: 64px 16px 24px;
         flex-direction: column;
     }
 }

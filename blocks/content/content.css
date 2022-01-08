@@ -17,8 +17,6 @@
 @media screen and (max-width: 960px) {
     .content {
         gap: 88px;
-        padding: 0;
-        margin: 0;
     }
     
 }
