@@ -2,3 +2,21 @@
     max-width: 100%;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 1184px) {
+    .photo-grid {
+        padding: 0 48px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .photo-grid {
+        padding: 0 24px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .photo-grid {
+        padding: 0 16px;
+    }
+}
