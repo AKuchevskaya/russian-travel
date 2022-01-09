@@ -10,15 +10,13 @@
 @media screen and (max-width: 1184px) {
     .content {
         padding: 0;
-    }
-    
+    }  
 }
 
 @media screen and (max-width: 960px) {
     .content {
         gap: 88px;
     }
-    
 }
 
 @media screen and (max-width: 540px) {
