@@ -1,25 +1,26 @@
 .intro {
-    max-width: 100%;
-    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
     justify-self: flex-start;
-    overflow: hidden;
+    margin: 0;
+    padding-left: 100px;
+    max-width: 984px;
 }
 
 @media screen and (max-width: 1184px) {
     .intro {
-        padding: 0 48px;
+        max-width: 928px;
     }
 }
 
 @media screen and (max-width: 960px) {
     .intro {
-        padding: 0 24px;
-        justify-self: center;
+        max-width: 720px;
     }
 }
 
 @media screen and (max-width: 540px) {
     .intro {
-        padding: 0 16px;
+        max-width: 288px;
     }
 }

@@ -4,27 +4,15 @@
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    padding: 0 412px 0;
-    margin: 0;
+    max-width: 360px;
+    margin: 0 auto;
     z-index: 1;
-}
-
-@media screen and (max-width: 1184px) {
-    .cover__subtitle {
-        padding: 0 332px 0;
-    }
-}
-
-@media screen and (max-width: 960px) {
-    .cover__subtitle {
-        padding: 0 204px 0;
-    }
 }
 
 @media screen and (max-width: 540px) {
     .cover__subtitle {
         font-size: 14px;
         line-height: 16px;
-        padding: 0 30px;
+        max-width: 288px;
     }
 }

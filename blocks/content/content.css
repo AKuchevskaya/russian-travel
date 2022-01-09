@@ -1,7 +1,8 @@
 .content {
     display: grid;
     gap: 92px;
-    padding: 0 48px;
+    max-width: 1184px;
+    margin: 0 auto;
     justify-content: center;
     justify-items: center;
     overflow: hidden;
@@ -9,18 +10,20 @@
 
 @media screen and (max-width: 1184px) {
     .content {
-        padding: 0;
+        max-width: 1024px;
     }  
 }
 
 @media screen and (max-width: 960px) {
     .content {
+        max-width: 768px;
         gap: 88px;
     }
 }
 
 @media screen and (max-width: 540px) {
     .content {
+        max-width: 320px;
         gap: 64px;
     }
 
