@@ -5,24 +5,6 @@
     margin: 0;
 }
 
-.footer__container:last-child {
-    margin: 0;
-}
-
-@media screen and (max-width: 1184px) {
-    .footer__container {
-        margin: 0;
-        padding: 0;
-    }
-}
-
-@media screen and (max-width: 960px) {
-    .footer__container {
-        margin: 0;
-        padding: 0;
-    }
-}
-
 @media screen and (max-width: 540px) {
     .footer__container {
         flex-direction: column;
