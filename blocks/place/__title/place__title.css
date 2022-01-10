@@ -5,6 +5,8 @@
     font-size: 72px;
     line-height: 76px;
     margin: 0;
+    text-align: start;
+    padding: 0;
 }
 
 @media screen and (max-width: 960px) {
@@ -12,6 +14,7 @@
         font-size: 42px;
         line-height: 46px;
         padding: 0 10px 0 0;
+        max-width: 97%;
     }
 }
 
@@ -19,6 +22,6 @@
     .place__title {
         font-size: 32px;
         line-height: 35px;
-        padding: 7px 16px 0;
+        padding: 0 16px 0;
     }
 }

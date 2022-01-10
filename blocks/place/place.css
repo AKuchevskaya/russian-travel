@@ -4,8 +4,11 @@
     grid-template-areas:
     "title website"
     "image text";
-    margin: 0 0 80px;
+    margin: 0 auto 80px;
     gap: 48px 40px;
+    justify-content: start;
+    align-content: center;
+    text-align: start;
 }
 
 .place:last-of-type {
@@ -22,7 +25,7 @@
 @media screen and (max-width: 960px) {
     .place {
         grid-template-columns: 340px 1fr;
-        margin: 0 0 73px;
+        margin: 0 auto 73px;
         column-gap: 28px;
     }
 }
@@ -35,7 +38,7 @@
         "website"
         "image"
         "text";
-        margin: 0 0 50px;
+        margin: 0 auto 50px;
         row-gap: 32px;
     }
 }
