@@ -27,7 +27,7 @@
         gap: 64px;
     }
 
-    .content:last-child {
+    .content:last-of-type{
         gap: 66px;
     }
 }

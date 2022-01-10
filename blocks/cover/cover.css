@@ -1,9 +1,3 @@
 .cover {
    margin: 0 auto;
 }
-
-@media screen and (max-width: 767px) {
-    .cover {
-        margin-top: 20px;
-    }
-}
